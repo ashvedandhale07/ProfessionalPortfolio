@@ -33,6 +33,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: flex;
+    margin-top: 20px;
 }
 
 nav ul li{
@@ -44,7 +45,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
 }
 
@@ -52,7 +53,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: darkcyan;
     position: absolute;
     left: 0;
     bottom : -6px;
@@ -70,7 +71,7 @@ nav ul li a:hover::after{
 
 .header-text span
 {
-    color: #ff004f;
+    color: darkcyan;
 }
 
 .logo{
@@ -131,7 +132,7 @@ nav ul li a:hover::after{
     content: "";
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: darkcyan;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -149,7 +150,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #ff004f;
+    color: darkcyan;
     font-size: 20px;
 }
 
@@ -190,7 +191,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),darkcyan);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -223,7 +224,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 2px solid #ff004f;
+    border: 2px solid darkcyan;
     padding: 14px 50px;
     border-radius: 15px;
     text-decoration: none;
@@ -232,7 +233,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
-    background: #ff004f;
+    background: darkcyan;
 }
 
 
@@ -275,13 +276,13 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover{
-    color: #ff004f;
+    color: darkcyan;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background-color: #ff004f;
+    background-color: darkcyan;
 }
 
 nav .fas{
@@ -304,7 +305,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: darkcyan;
         position: fixed;
         top: 0;
         right: -200px;
