@@ -162,6 +162,18 @@ nav ul li a:hover::after{
     display: block;
 }
 
+a: link{
+    color: darkcyan;
+}
+
+a: visited{
+    color: darkcyan;
+}
+
+a: active{
+    color: darkcyan;
+}
+
 
 /* portfolio section */
 #portfolio{
